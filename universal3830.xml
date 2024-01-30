@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--Device tree-->
+  <project name="Samsung-Galaxy-A21s/android_device_samsung_a21sks" path="device/samsung/a21sks" revision="lineage-20" remote="github"/>
+  <project name="Samsung-Galaxy-A21s/android_device_samsung_a21s_common" path="device/samsung/a21s_common" revision="lineage-20" remote="github"/>   
+  <!--Vendor tree-->
+  <project name="Samsung-Galaxy-A21s/android_vendor_samsung_a21s" path="vendor/samsung/a21s" revision="main" remote="github"/>
+  <project name="Samsung-Galaxy-A21s/android_vendor_samsung_a21s_common" path="vendor/samsung/a21s_common" revision="main" remote="github"/>
+<manifest>
