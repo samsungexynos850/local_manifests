@@ -6,4 +6,4 @@
   <!--Vendor tree-->
   <project name="Samsung-Galaxy-A21s/android_vendor_samsung_a21s" path="vendor/samsung/a21s" revision="main" remote="github"/>
   <project name="Samsung-Galaxy-A21s/android_vendor_samsung_a21s_common" path="vendor/samsung/a21s_common" revision="main" remote="github"/>
-<manifest>
+<\manifest>
