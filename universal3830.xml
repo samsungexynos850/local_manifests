@@ -6,7 +6,7 @@
           revision="lineage-20" />
 
   <!--Device tree-->
-  <project name="Samsung-Galaxy-A21s/android_device_samsung_a21sks" path="device/samsung/a21sks" remote="exynos3830"/>
-  <project name="Samsung-Galaxy-A21s/android_device_samsung_a21s_common" path="device/samsung/a21s_common" remote="exynos3830"/>   
+  <project name="android_device_samsung_a21sks" path="device/samsung/a21sks" remote="exynos3830"/>
+  <project name="android_device_samsung_a21s_common" path="device/samsung/a21s_common" remote="exynos3830"/>   
 
 </manifest>
