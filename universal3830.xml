@@ -5,8 +5,15 @@
           fetch="https://github.com/Samsung-Galaxy-A21s"
           revision="lineage-20" />
 
-  <!--Device tree-->
+  <!-- Device tree -->
   <project name="android_device_samsung_a21sks" path="device/samsung/a21sks" remote="exynos3830"/>
-  <project name="android_device_samsung_a21s_common" path="device/samsung/a21s_common" remote="exynos3830"/>   
+  <project name="android_device_samsung_a21s-common" path="device/samsung/a21s-common" remote="exynos3830"/>   
+
+  <!-- Vendor tree -->
+  <project name="android_vendor_samsung_a21sks" path="vendor/samsung/a21sks" remote="exynos3830"/>
+  <project name="android_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" remote="exynos3830"/>
+
+  <!-- Kernel -->
+  <project name="android_kernel_samsung_universal3830" path="kernel/samsung/universal3830" remote="exynos3830"/>
 
 </manifest>
