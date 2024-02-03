@@ -9,9 +9,9 @@
           fetch="https://github.com/Samsung-Galaxy-A21s"
           revision="A12-S8-Physwizz-Kernel" />
 
-<remote name="SLSI_A12"
+<remote name="SLSI"
           fetch="https://github.com/Samsung-Galaxy-A21s"
-          revision="android-12" />
+          revision="thirteen" />
 
   <!-- Device tree -->
   <project name="android_device_samsung_a21sks" path="device/samsung/a21sks" remote="exynos3830"/>
@@ -25,6 +25,6 @@
   <project name="android_kernel_samsung_universal3830" path="kernel/samsung/universal3830" remote="physwizz_kernel"/>
 
   <!-- SLSI -->
-  <project name="android_device_samsung_a21s-sepolicy" path="device/samsung/a21s-sepolicy" remote="SLSI_A12"/>
+  <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="SLSI"/>
 
 </manifest>
