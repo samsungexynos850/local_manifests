@@ -13,6 +13,10 @@
           fetch="https://github.com/Samsung-Galaxy-A21s"
           revision="thirteen" />
 
+<remote name="LineageOS"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-20" />
+
   <!-- Device tree -->
   <project name="android_device_samsung_a21sks" path="device/samsung/a21sks" remote="exynos3830"/>
   <project name="android_device_samsung_a21s-common" path="device/samsung/a21s-common" remote="exynos3830"/>   
@@ -26,5 +30,6 @@
 
   <!-- SLSI -->
   <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="SLSI"/>
+  <project name="android_device_samsung_slsi_sepolicy" path="hardware/samsung_slsi-linaro/" remote="SLSI"/>
 
 </manifest>
