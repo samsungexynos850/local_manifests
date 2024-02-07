@@ -5,13 +5,9 @@
           fetch="https://github.com/Samsung-Galaxy-A21s"
           revision="lineage-20" />
 
-<remote name="physwizz_kernel"
+<remote name="kernel"
           fetch="https://github.com/Samsung-Galaxy-A21s"
-          revision="A12-S8-Physwizz-Kernel" />
-
-<remote name="SLSI"
-          fetch="https://github.com/Samsung-Galaxy-A21s"
-          revision="thirteen" />
+          revision="A11-U5-Lineage-Kernel" />
 
 <remote name="LineageOS"
           fetch="https://github.com/LineageOS"
@@ -26,10 +22,11 @@
   <project name="android_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" remote="exynos3830"/>
 
   <!-- Kernel -->
-  <project name="android_kernel_samsung_universal3830" path="kernel/samsung/universal3830" remote="physwizz_kernel"/>
+  <project name="android_kernel_samsung_universal3830" path="kernel/samsung/universal3830" remote="kernel"/>
 
   <!-- SLSI -->
-  <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="SLSI"/>
-  <project name="android_device_samsung_slsi_sepolicy" path="hardware/samsung_slsi-linaro/" remote="SLSI"/>
+  <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="exynos3830"/>
+  <project name="android_platform_external_tinyalsa" path="external/tinyalsa" remote="exynos3830"/>
+  <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="exynos3830"/>
 
 </manifest>
