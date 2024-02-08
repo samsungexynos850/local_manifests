@@ -4,5 +4,6 @@ git clone https://github.com/Samsung-Galaxy-A21s/local_manifests -b lineage-20 .
 
 # Note
 
-This manifest only works for lineage since Lineage inherited code is edited.
-For other custom ROM's either create a manifest yourself or email me, as I might develop one.
+- When syncing, use the command repo sync --force-sync so the trees can be overwritten, you make have to run this a few times for it to work.
+- This manifest only works for lineage since Lineage inherited code is edited.
+- For other custom ROM's either create a manifest yourself or email me, as I might develop one.
