@@ -14,11 +14,11 @@
           revision="lineage-20" />
 
   <!-- Device tree -->
-  <project name="android_device_samsung_a21sks" path="device/samsung/a21sks" remote="exynos3830"/>
+  <project name="android_device_samsung_a21s" path="device/samsung/a21s" remote="exynos3830"/>
   <project name="android_device_samsung_a21s-common" path="device/samsung/a21s-common" remote="exynos3830"/>
 
   <!-- Vendor tree -->
-  <project name="android_vendor_samsung_a21sks" path="vendor/samsung/a21sks" remote="exynos3830"/>
+  <project name="android_vendor_samsung_a21s" path="vendor/samsung/a21s" remote="exynos3830"/>
   <project name="android_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" remote="exynos3830"/>
 
   <!-- Kernel -->
@@ -26,12 +26,10 @@
 
   <!-- Remove original repos -->
   <remove-project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" />
-  <remove-project name="platform/external/tinyalsa" />
   <remove-project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" />
 
   <!-- SLSI -->
   <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="exynos3830"/>
-  <project name="android_platform_external_tinyalsa" path="external/tinyalsa" remote="exynos3830"/>
   <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="exynos3830"/>
 
 </manifest>
