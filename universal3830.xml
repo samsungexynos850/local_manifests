@@ -5,10 +5,6 @@
           fetch="https://github.com/Samsung-Galaxy-A21s"
           revision="lineage-20" />
 
-<remote name="kernel"
-          fetch="https://github.com/Samsung-Galaxy-A21s"
-          revision="A11-U5-Lineage-Kernel" />
-
 <remote name="LineageOS"
           fetch="https://github.com/LineageOS"
           revision="lineage-20" />
@@ -22,7 +18,7 @@
   <project name="android_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" remote="exynos3830"/>
 
   <!-- Kernel -->
-  <project name="android_kernel_samsung_universal3830" path="kernel/samsung/universal3830" remote="kernel"/>
+  <project name="android_kernel_samsung_a21s" path="kernel/samsung/a21s" remote="exynos3830"/>
 
   <!-- Remove original repos -->
   <remove-project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" />
