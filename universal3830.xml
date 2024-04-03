@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="exynos3830"
-          fetch="https://github.com/Samsung-Galaxy-A21s"
+<remote name="exynos850"
+          fetch="https://github.com/samsungexynos850"
           revision="lineage-20" />
 
 <remote name="LineageOS"
@@ -10,22 +10,22 @@
           revision="lineage-20" />
 
   <!-- Device tree -->
-  <project name="android_device_samsung_a21s" path="device/samsung/a21s" remote="exynos3830"/>
-  <project name="android_device_samsung_a21s-common" path="device/samsung/a21s-common" remote="exynos3830"/>
+  <project name="android_device_samsung_a21s" path="device/samsung/a21s" remote="exynos850"/>
+  <project name="android_device_samsung_exynos850-common" path="device/samsung/exynos850-common" remote="exynos850"/>
 
   <!-- Vendor tree -->
-  <project name="android_vendor_samsung_a21s" path="vendor/samsung/a21s" remote="exynos3830"/>
-  <project name="android_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" remote="exynos3830"/>
+  <project name="android_vendor_samsung_a21s" path="vendor/samsung/a21s" remote="exynos850"/>
+  <project name="android_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" remote="exynos850"/>
 
   <!-- Kernel -->
-  <project name="android_kernel_samsung_a21s" path="kernel/samsung/a21s" remote="exynos3830"/>
+  <project name="KawaKernel-A217X" path="kernel/samsung/a21s" remote="exynos850"/>
 
   <!-- Remove original repos -->
   <remove-project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" />
   <remove-project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" />
 
   <!-- SLSI -->
-  <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="exynos3830"/>
-  <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="exynos3830"/>
+  <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="exynos850"/>
+  <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="exynos850"/>
 
 </manifest>
