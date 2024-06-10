@@ -3,29 +3,29 @@
 
 <remote name="exynos850"
           fetch="https://github.com/samsungexynos850"
-          revision="lineage-20" />
+          revision="lineage-19.1" />
 
 <remote name="LineageOS"
           fetch="https://github.com/LineageOS"
-          revision="lineage-20" />
+          revision="lineage-19.1" />
 
   <!-- Device tree -->
   <project name="android_device_samsung_a21s" path="device/samsung/a21s" remote="exynos850"/>
-  <project name="android_device_samsung_exynos850-common" path="device/samsung/exynos850-common" remote="exynos850"/>
+  <project name="android_device_samsung_a21s-common" path="device/samsung/a21s-common" remote="exynos850"/>
 
   <!-- Vendor tree -->
   <project name="android_vendor_samsung_a21s" path="vendor/samsung/a21s" remote="exynos850"/>
   <project name="android_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" remote="exynos850"/>
 
   <!-- Kernel -->
-  <project name="KawaKernel-A217X" path="kernel/samsung/a21s" remote="exynos850"/>
-
-  <!-- Remove original repos -->
-  <remove-project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" />
-  <remove-project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" />
+  <project name="android_kernel_samsung_exynos850" path="kernel/samsung/exynos850" remote="exynos850"/>
 
   <!-- SLSI -->
-  <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="exynos850"/>
-  <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="exynos850"/>
+  <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="LineageOS"/>
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="LineageOS"/>
+  <project name="android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" remote="LineageOS"/>
+  <project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" remote="LineageOS"/>
+  <project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" remote="LineageOS"/>
+
 
 </manifest>
