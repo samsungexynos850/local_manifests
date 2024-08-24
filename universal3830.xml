@@ -9,6 +9,10 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-19.1" />
 
+<remote name="libaptX"
+	  fetch="https://github.com/notmyst33d"
+	  revision="main" />
+
   <!-- Device tree -->
   <project name="android_device_samsung_a21s" path="device/samsung/a21s" remote="exynos850"/>
   <project name="android_device_samsung_a21s-common" path="device/samsung/a21s-common" remote="exynos850"/>
@@ -26,6 +30,9 @@
   <project name="android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" remote="LineageOS"/>
   <project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" remote="LineageOS"/>
   <project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" remote="LineageOS"/>
+
+  <!-- libaptX -->
+  <project name="libaptX" path="external/aptx" remote="libaptX"/>
 
 
 </manifest>
