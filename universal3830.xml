@@ -6,10 +6,10 @@
           revision="lineage-22.1" />
 
   <!-- SLSI -->
-  <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="LineageOS"/>
-  <project name="android_hardware_samsung" path="hardware/samsung" remote="LineageOS"/>
-  <project name="android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" remote="LineageOS"/>
-  <project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" remote="LineageOS"/>
-  <project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" remote="LineageOS"/>
+  <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="origin"/>
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="origin"/>
+  <project name="android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" remote="origin"/>
+  <project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" remote="origin"/>
+  <project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" remote="origin"/>
 
 </manifest>
