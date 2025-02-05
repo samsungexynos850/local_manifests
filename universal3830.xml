@@ -2,23 +2,8 @@
 <manifest>
 
 <remote name="origin"
-          fetch="https://github.com/samsungexynos850"
-          revision="lineage-19.1" />
-
-<remote name="LineageOS"
           fetch="https://github.com/LineageOS"
-          revision="lineage-19.1" />
-
-  <!-- Device tree -->
-  <project name="android_device_samsung_a21snsxx" path="device/samsung/a21snsxx" remote="origin"/>
-  <project name="android_device_samsung_a21s-common" path="device/samsung/a21s-common" remote="origin"/>
-
-  <!-- Vendor tree -->
-  <project name="android_vendor_samsung_a21snsxx" path="vendor/samsung/a21snsxx" remote="origin"/>
-  <project name="android_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" remote="origin"/>
-
-  <!-- Kernel -->
-  <project name="android_kernel_samsung_exynos850" path="kernel/samsung/exynos850" remote="origin"/>
+          revision="lineage-22.1" />
 
   <!-- SLSI -->
   <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="LineageOS"/>
