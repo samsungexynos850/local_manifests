@@ -3,7 +3,7 @@
 
 <remote name="origin"
           fetch="https://github.com/LineageOS"
-          revision="lineage-22.2" />
+          revision="lineage-23.0" />
 
   <!-- SLSI -->
   <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="origin"/>
