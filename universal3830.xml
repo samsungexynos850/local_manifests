@@ -2,8 +2,23 @@
 <manifest>
 
 <remote name="origin"
-          fetch="https://github.com/LineageOS"
-          revision="lineage-23.0" />
+        fetch="https://github.com/LineageOS"
+        revision="lineage-23.0" />
+
+<remote name="muppets"
+        fetch="https://github.com/TheMuppets"
+        revision="lineage-23.0" />
+
+  <!-- Device -->
+  <project name="android_device_samsung_a21s" path="device/samsung/a21s" remote="origin"/>
+  <project name="android_device_samsung_a21s-common" path="device/samsung/a21s-common" remote="origin"/>
+
+  <!-- Vendor -->
+  <project name="proprietary_vendor_samsung_a21s" path="vendor/samsung/a21s" remote="muppets"/>
+  <project name="proprietary_vendor_samsung_a21s-common" path="vendor/samsung/a21s-common" remote="muppets"/>
+
+  <!-- Kernel -->
+  <project name="android_kernel_samsung_exynos850" path="kernel/samsung/exynos850" remote="origin"/>
 
   <!-- SLSI -->
   <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="origin"/>
