@@ -1,0 +1,8 @@
+# Device/Vendor/Kernel Manifest
+
+	git clone https://github.com/samsungexynos850/local_manifests.git -b lineage-23.0 .repo/local_manifests
+
+# Usage
+
+	repo sync
+
