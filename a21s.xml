@@ -3,11 +3,11 @@
 
   <remote  name="origin"
            fetch="https://github.com/LineageOS"
-           revision="lineage-23.1" />
+           revision="lineage-23.2" />
 
   <remote  name="muppets"
            fetch="https://github.com/TheMuppets"
-           revision="lineage-23.1" />
+           revision="lineage-23.2" />
 
   <!-- Device -->
   <project name="android_device_samsung_a21s" path="device/samsung/a21s" remote="origin" />
