@@ -10,7 +10,7 @@
            revision="lineage-23.2" />
 
   <!-- Device -->
-  <project name="android_device_samsung_dm1q" path="device/samsung/dmq1" remote="origin" />
+  <project name="android_device_samsung_dm1q" path="device/samsung/dm1q" remote="origin" />
   <project name="android_device_samsung_sm8550-common" path="device/samsung/sm8550-common" remote="origin" />
 
   <!-- Vendor -->
