@@ -14,16 +14,12 @@
   <project name="android_device_samsung_sm8550-common" path="device/samsung/sm8550-common" remote="origin" />
 
   <!-- Vendor -->
-  <project name="proprietary_vendor_samsung_sm8550-common" path="vendor/samsung/sm8550-common" remote="origin" revision="lineage-23.2" />
-  <project name="proprietary_vendor_samsung_dm1q" path="vendor/samsung/dm1q" remote="origin" revision="lineage-23.2" />
+  <project name="proprietary_vendor_samsung_sm8550-common" path="vendor/samsung/sm8550-common" remote="origin" />
+  <project name="proprietary_vendor_samsung_dm1q" path="vendor/samsung/dm1q" remote="origin" />
 
   <!-- Kernel -->
-  <project name="android_kernel_samsung_sm8550" path="kernel/samsung/sm8550" remote="origin" revision="lineage-23.2" />
-  <project name="android_kernel_samsung_sm8550-devicetrees" path="kernel/samsung/sm8550-devicetrees" remote="origin" revision="lineage-23.2" />
-  <project name="android_kernel_samsung_sm8550-modules" path="kernel/samsung/sm8550-modules" remote="origin" revision="lineage-23.2" />
-
-  <!-- Hardware -->
-  <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="lineage" revision="lineage-23.2" />
-  <project name="android_hardware_samsung" path="hardware/samsung" remote="lineage" revision="lineage-23.2"/>
+  <project name="android_kernel_samsung_sm8550" path="kernel/samsung/sm8550" remote="origin" />
+  <project name="android_kernel_samsung_sm8550-devicetrees" path="kernel/samsung/sm8550-devicetrees" remote="origin" />
+  <project name="android_kernel_samsung_sm8550-modules" path="kernel/samsung/sm8550-modules" remote="origin" />
 
 </manifest>
