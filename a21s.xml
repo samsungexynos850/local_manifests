@@ -9,6 +9,10 @@
            fetch="https://github.com/TheMuppets"
            revision="lineage-23.2" />
 
+  <remote  name="samsungexynos850"
+           fetch="https://github.com/samsungexynos850"
+           revision="lineage-23.2" />
+
   <!-- Device -->
   <project name="android_device_samsung_a21s" path="device/samsung/a21s" remote="lineage-a21s" />
   <project name="android_device_samsung_a21s-common" path="device/samsung/a21s-common" remote="lineage-a21s" />
@@ -35,5 +39,8 @@
   <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="lineage-a21s" />
   <project name="android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="lineage-a21s" />
   <project name="android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="lineage-a21s" />
+
+  <!-- SLSI-Linaro -->
+  <project name="android_build_scripts" path="build/scripts" remote="samsungexynos850" />
 
 </manifest>
