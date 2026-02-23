@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="origin"
+  <remote  name="exynoobs"
            fetch="https://github.com/Exynoobs"
            revision="lineage-23.2" />
 
-  <remote  name="lineage"
+  <remote  name="lineage-dm1q"
            fetch="https://github.com/LineageOS"
            revision="lineage-23.2" />
 
@@ -14,16 +14,16 @@
            revision="lineage-23.2" />
 
   <!-- Device -->
-  <project name="android_device_samsung_dm1q" path="device/samsung/dm1q" remote="lineage" />
-  <project name="android_device_samsung_sm8550-common" path="device/samsung/sm8550-common" remote="lineage" />
+  <project name="android_device_samsung_dm1q" path="device/samsung/dm1q" remote="lineage-dm1q" />
+  <project name="android_device_samsung_sm8550-common" path="device/samsung/sm8550-common" remote="lineage-dm1q" />
 
   <!-- Vendor -->
   <project name="proprietary_vendor_samsung_sm8550-common" path="vendor/samsung/sm8550-common" remote="muppets-dm1q" />
   <project name="proprietary_vendor_samsung_dm1q" path="vendor/samsung/dm1q" remote="muppets-dm1q" />
 
   <!-- Kernel -->
-  <project name="android_kernel_samsung_sm8550" path="kernel/samsung/sm8550" remote="origin" />
-  <project name="android_kernel_samsung_sm8550-devicetrees" path="kernel/samsung/sm8550-devicetrees" remote="origin" />
-  <project name="android_kernel_samsung_sm8550-modules" path="kernel/samsung/sm8550-modules" remote="origin" />
+  <project name="android_kernel_samsung_sm8550" path="kernel/samsung/sm8550" remote="exynoobs" />
+  <project name="android_kernel_samsung_sm8550-devicetrees" path="kernel/samsung/sm8550-devicetrees" remote="exynoobs" />
+  <project name="android_kernel_samsung_sm8550-modules" path="kernel/samsung/sm8550-modules" remote="exynoobs" />
 
 </manifest>

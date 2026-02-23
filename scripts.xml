@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="samsungexynos850"
+           fetch="https://github.com/samsungexynos850"
+           revision="lineage-23.2" />
+
+  <!-- Build scripts -->
+  <project name="android_build_scripts" path="build/scripts" remote="samsungexynos850" />
+
+</manifest>
