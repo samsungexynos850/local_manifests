@@ -1,0 +1,9 @@
+# AOSP Hardware SLSI manifest
+
+```
+git clone https://github.com/samsungexynos850/local_manifests.git -b slsi .repo/local_manifests
+```
+Then to sync up:
+```
+repo sync
+```

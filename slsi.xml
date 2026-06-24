@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="hardware-slsi"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-23.2" />
+
+  <!-- SLSI -->
+  <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="hardware-slsi" />
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="hardware-slsi" />
+  <project name="android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" remote="hardware-slsi" />
+  <project name="android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="hardware-slsi" />
+  <project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" remote="hardware-slsi" />
+  <project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" remote="hardware-slsi" />
+
+  <!-- SLSI-Linaro -->
+  <project name="android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="hardware-slsi" />
+  <project name="android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="hardware-slsi" />
+  <project name="android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="hardware-slsi" />
+  <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="hardware-slsi" />
+  <project name="android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="hardware-slsi" />
+  <project name="android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="hardware-slsi" />
+
+</manifest>
