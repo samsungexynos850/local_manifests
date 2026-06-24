@@ -1,8 +1,9 @@
-# Device/Vendor/Kernel Manifest
+# AOSP Device manifest
 
-	git clone https://github.com/samsungexynos850/local_manifests.git -b lineage-23.2 .repo/local_manifests
-
-# Usage
-
-	repo sync
-
+```
+git clone https://github.com/samsungexynos850/local_manifests.git -b lineage-23.2 .repo/local_manifests
+```
+Then to sync up:
+```
+repo sync
+```
